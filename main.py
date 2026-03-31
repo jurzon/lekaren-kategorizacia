@@ -27,7 +27,9 @@ def nacitaj_a_spracuj():
 
         print("\n--- Prvých 5 riadkov ---")
         # Výpis stĺpca 'Kód' (kód lieku) a 'ATC' (prvý stĺpec)
-        zobrazenie = df[['ATC', 'Kód', 'Názov', 'Doplnok', 'Konečná c.']].head()
+        # Nastav si stĺpce podľa svojej potreby
+        #zobrazenie = df[['ATC', 'Kód', 'Názov', 'Doplnok', 'Konečná c.']].head()
+        zobrazenie = df[['Kód', 'Názov']].head()
         print(zobrazenie)
         
         return df
