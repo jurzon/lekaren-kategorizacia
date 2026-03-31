@@ -1,4 +1,4 @@
-# 💊 Lekárenská Kategorizácia Liekov
+# 💊 Načítanie abecedného zoznamu kategorizovaných liekov
 
 Jednoduchý Python nástroj na efektívnu prácu s dátami z oficiálneho zoznamu kategorizácie liekov Ministerstva zdravotníctva SR.
 
