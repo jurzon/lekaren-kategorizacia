@@ -1,0 +1,22 @@
+# Virtuálne prostredie
+.venv/
+venv/
+ENV/
+
+# Nastavenia editora
+.vscode/
+.idea/
+
+# Python cache (kompilované súbory)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lokálne dáta 
+*.xlsx
+*.csv
+!cast_I_abc_zoznam_liekov_N_k_01_04_2026.xlsx
+
+# Systémové súbory
+.DS_Store
+Thumbs.db
